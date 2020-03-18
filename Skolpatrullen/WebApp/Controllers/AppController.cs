@@ -40,7 +40,6 @@ namespace WebApp.Controllers
             {
                 return response.FailureMessage;
             }
-            return "Något gick fel ¯\\_(ツ)_/¯";
         }
         public void SetFailureMessage(string message)
         {
